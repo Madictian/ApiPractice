@@ -18,6 +18,13 @@ let imageOfRon = [
 
 let doc = document.getElementById("searcher").addEventListener("keydown", seachQuote);
 let slideShower = Math.floor(Math.random(10));
+/*async function hent(){
+    let url = 'https://ron-swanson-quotes.herokuapp.com/v2/quotes/3';
+    let response = await fetch(url);
+    let commits = await response.json();
+    alert(commits[0] + "\n" + commits[1] + "\n" + commits[2] + "\n");
+    }
+hent();*/
 loadQuotes(setInterval(fadeinout,10000));
 
 
